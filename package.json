@@ -1,0 +1,28 @@
+{
+  "name": "automation-breakeven",
+  "version": "1.0.0",
+  "description": "Break-even calculator: dependency-free Node.js script",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-breakeven": "src/breakeven.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-breakeven.git"
+  },
+  "homepage": "https://monsieurelzam.com/en/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "breakeven"
+  ]
+}
